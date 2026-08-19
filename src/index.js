@@ -1,0 +1,1 @@
+console.log("Yokoso Watashino Soul Society!!");
