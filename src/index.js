@@ -1,1 +1,1 @@
-console.log("Yokoso Watashino Soul Society!!");
+import { pageLoad } from "./pageLoad";
