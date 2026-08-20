@@ -38,15 +38,17 @@ function menu(){
     const content = document.querySelector('#content');
     content.style.margin = "3rem";
     
-    content.appendChild(item1);
-    content.appendChild(item2);
-    content.appendChild(item3);
-    content.appendChild(item4);
-    content.appendChild(item5);
-    content.appendChild(item6);
-    content.appendChild(item7);
-    content.appendChild(item8);
-    content.appendChild(item9);
-    content.appendChild(item10);
+    list.appendChild(item1);
+    list.appendChild(item2);
+    list.appendChild(item3);
+    list.appendChild(item4);
+    list.appendChild(item5);
+    list.appendChild(item6);
+    list.appendChild(item7);
+    list.appendChild(item8);
+    list.appendChild(item9);
+    list.appendChild(item10);
+
+    content.appendChild(list);
 
 }

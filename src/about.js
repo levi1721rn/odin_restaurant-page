@@ -6,4 +6,5 @@ function about(){
     content.textContent = "Hello guys this the Straw Hat crew. Please support us on our quest to find the ONE PIECE!!"
 
     content.style.margin = "3rem";
+    
 }
