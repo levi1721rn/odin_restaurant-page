@@ -2,21 +2,7 @@ export {pageLoad};
 
 import onePieceImage from "./onepiece.jpg";
 
-function pageLoad(){
-
-   const nav_panel = document.querySelector('nav');
-   nav_panel.style.display ='grid';
-   nav_panel.style.gridTemplateColumns = "1fr 1fr 1fr";
-   nav_panel.style.gap = '10px';
-
-
-   const buttons = document.querySelectorAll('button');
-   buttons.forEach((button) => {
-    button.style.width = "100px"
-    button.style.marginLeft = "3rem";
-    button.style.marginTop = "1rem";
-   })   
-   
+function pageLoad(){   
    
    const image = document.createElement('img');
    image.src = onePieceImage;
@@ -35,7 +21,5 @@ function pageLoad(){
    description.style.marginLeft = '15rem';
 
    content.appendChild(description);
-
-
 
 }
