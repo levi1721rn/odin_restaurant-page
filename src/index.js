@@ -1,1 +1,1 @@
-import { pageLoad } from "./pageLoad";
+import { pageLoad } from "./pageLoad.js";
